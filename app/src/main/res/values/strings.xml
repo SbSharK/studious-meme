@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="app_name">#FriendBook</string>
+
+    <!-- Activity Titles -->
+    <string formatted="false" name="friendsMenuItem1FilterActivity">Friends</string>
+    <string formatted="false" name="driversScreen1DSItemFormActivity"></string>
+    <string formatted="false" name="vehiclesFilterActivity">Vehicles</string>
+    <string formatted="false" name="vehiclesDSItemFormActivity"></string>
+    <string formatted="false" name="friendBookMain">#FriendBook</string>
+    <string formatted="false" name="logisticsActivity">Logistics</string>
+    <string formatted="false" name="friendsMenuItem1Activity">Friends</string>
+    <string formatted="false" name="vehiclesActivity">Vehicles</string>
+    <string formatted="false" name="locationActivity">Location</string>
+</resources>
+
+

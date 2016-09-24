@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ibm.mobileappbuilder.logistics20150911132537" >
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAkyecm3oHQGbvI35FyEEL9rG2op6_Sag8"/>
+        <activity android:name="com.ibm.mobileappbuilder.logistics20150911132537.ui.FriendsMenuItem1FilterActivity"
+            android:label="@string/friendsMenuItem1FilterActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.logistics20150911132537.ui.DriversScreen1DSItemFormActivity"
+            android:label="@string/driversScreen1DSItemFormActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.logistics20150911132537.ui.VehiclesFilterActivity"
+            android:label="@string/vehiclesFilterActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.logistics20150911132537.ui.VehiclesDSItemFormActivity"
+            android:label="@string/vehiclesDSItemFormActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.logistics20150911132537.ui.FriendBookMain"
+            android:label="@string/friendBookMain"
+            android:theme="@style/AppTheme.Drawer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+      </activity>
+        <activity android:name="com.ibm.mobileappbuilder.logistics20150911132537.ui.LogisticsActivity"
+            android:label="@string/logisticsActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.logistics20150911132537.ui.FriendsMenuItem1Activity"
+            android:label="@string/friendsMenuItem1Activity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.logistics20150911132537.ui.FriendsMenuItem1DetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.logistics20150911132537.ui.VehiclesActivity"
+            android:label="@string/vehiclesActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.logistics20150911132537.ui.VehiclesDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.logistics20150911132537.ui.LocationActivity"
+            android:label="@string/locationActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.logistics20150911132537.ui.LocationDetailActivity"
+        />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:theme="@style/NoActionBar"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.worklight.wlclient.ui.UIActivity"/>
+    </application>
+
+</manifest>
